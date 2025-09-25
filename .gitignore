@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore caches and generated icons
+.cache/
+*.swp
+*.bak
+*.log
+
+# Ignore generated files from install script
+switch.sh
+switch-wrapper.sh
+switch-icon.png
+switch-light.png
+switch-dark.png
+
+# Python / misc virtual envs (if ever used)
+venv/
+__pycache__/
+*.pyc
+
